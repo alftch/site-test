@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Didact Gothic;
+    src: url(../fonts/DidactGothic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cf:after,
+.cf:before {
+    display: table;
+    content: " ";
+}
+
+.cf:after {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: Didact Gothic;
+    background-image: url(../img/face-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .25);
+    font-size: 50px;
+    color: black;
+}
+
+header .logo {
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;
+    padding: 20px 10px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    color: rgba(69, 69, 69, .8)
+}
+
+header nav ul .dropdown {
+    position: relative;
+    margin-right: 10px;
+}
+
+header nav ul .dropdown:hover .dropdown-content {
+    display: block;
+    animation: boom 500ms ease;
+}
+
+
+header nav ul .dropdown-content {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    background: black;
+    box-shadow: 0 10px 20px 0 .rgba (105, 105, 105, .35);
+    padding: 5px 10px 10px 10px;
+    min-width: 140px;
+}
+
+header nav ul .dropdown-content li {
+    padding: 5px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+header na ul .dropdown content li a {
+    color: rgba(0, 0, 0, .65);
+    padding: 8px 7px;
+}
+
+header nav ul .dropdown-content li a:hover {
+    color: rgba(69, 69, 69, .8)
+}
+
+section div div p {
+    font-size: 35px;
+}
+
+section img {
+    align-content: center;
+}
+
+.text {
+    font-size: 70px;
+    color: white;
+}
+
+div {
+    margin-top: 600px;
+    margin-left: 1250px;
+    font-size: 40px;
+    color: white;
+}
+
+body div a {
+    text-decoration: none;
+    color: white;
+}
+
+body div a:hover {
+    color: rgba(0, 0, 0, .8)
+}

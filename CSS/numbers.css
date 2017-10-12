@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Didact Gothic;
+    src:url(../fonts/DidactGothic.ttf);
+}
+body {
+    background-image: url(../img/face-bg.jpg);
+    background-size: cover;
+    font-family: Didact Gothic;
+        color: white;
+}
+div {
+    float: right;
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+    padding-left: 300px;
+}
+.linkback {
+    margin-top: 200px;
+    margin-left: 1000px;
+    float: left;
+    color: white;
+    font-size: 35px;
+}
+
+.linkback:hover {
+    color: rgba(0, 0, 0, .9)
+}
